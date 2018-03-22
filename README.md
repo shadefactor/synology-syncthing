@@ -20,10 +20,7 @@ you.  You should have backups and test new processes on test data. If you don't 
 <ul>
 	<li>Download the appropriate syncthing binary from <a href="https://syncthing.net/" target="_blank">syncthing.net</a>.  Your Synology architecture can be discovered from this page <a href="https://www.synology.com/en-global/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have" target="_blank">What kind of CPU does my NAS have</a></li>
 	<li>Copy the syncthing binary over the one in /var/packages/syncthing/target/bin</li>
-
-	<li>Download the appropriate syncthing-inotify binary from <a href="https://github.com/syncthing/syncthing-inotify/releases/latest" 
-target="_blank">github</a>.  Again, choose the one for your Synology architecture.</li>
+	<li>Download the appropriate syncthing-inotify binary from <a href="https://github.com/syncthing/syncthing-inotify/releases/latest" target="_blank">github</a>.  Again, choose the one for your Synology architecture.</li>
 	<li>Copy the syncthing-inotify binary to /var/packages/syncthing/target/bin</li>
-
-	<li>Finally, copy this start-stop-status in this repo to script to /var/packages/syncthing/scripts/</li>
+	<li>Finally, copy the <a href="https://github.com/kmogged/synology-syncthing/blob/master/start-stop-status" target="_blank">start-stop-status script</a> in this repo to /var/packages/syncthing/scripts/</li>
 </ul>
